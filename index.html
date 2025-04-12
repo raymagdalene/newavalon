@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ray Magdalene - New Avalon</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Verdana, sans-serif;
+      background: #000 url('https://www.transparenttextures.com/patterns/black-felt.png');
+      color: #00FF99;
+      background-size: cover;
+    }
+
+    .container {
+      max-width: 800px;
+      width: 90%;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.85);
+      border: 2px solid #FF00FF;
+    }
+
+    h1 {
+      font-size: 2em;
+      text-align: center;
+      color: #FF66CC;
+      text-shadow: 1px 1px #000;
+    }
+
+    .nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      margin: 20px 0;
+    }
+
+    .nav a {
+      background-color: #111;
+      border: 1px solid #00FF99;
+      padding: 10px;
+      color: #00FF99;
+      text-decoration: none;
+      font-size: 0.9em;
+    }
+
+    .nav a:hover {
+      background-color: #222;
+    }
+
+    img.responsive {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .marquee {
+      overflow: hidden;
+      white-space: nowrap;
+      box-sizing: border-box;
+      animation: scroll-left 10s linear infinite;
+    }
+
+    @keyframes scroll-left {
+      0% {
+        transform: translateX(100%);
+      }
+      100% {
+        transform: translateX(-100%);
+      }
+    }
+
+    @media screen and (max-width: 600px) {
+      h1 {
+        font-size: 1.5em;
+      }
+
+      .nav a {
+        font-size: 0.8em;
+        padding: 8px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="https://i.imgur.com/q0Zmw0m.png" alt="Ray Magdalene Logo" class="responsive" style="margin-bottom: 20px; max-width: 75%;">
+
+    <div class="nav">
+      <a href="#music">Music</a>
+      <a href="#art">Art</a>
+      <a href="#newavalon">New Avalon</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <div class="marquee">
+      <p>✨ UNDER CONSTRUCTION ✨</p>
+    </div>
+
+    <img src="https://i.imgur.com/WCmRZyz.jpg" alt="Wyn - Grungy Teen Form" class="responsive" style="margin: 20px 0;">
+    <img src="https://i.imgur.com/8Ech9Bz.png" alt="Ray's Sigil" class="responsive" style="margin-top: 10px; max-width: 200px; display: block; margin-left: auto; margin-right: auto;">
+
+    <p>New Avalon is here</p>
+  </div>
+</body>
+</html>
